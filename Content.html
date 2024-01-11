@@ -1,238 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="Stylesheet.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="left">
-          <a href="" class="header__logo"></a>
-          <p>Harrison Brown</p>
-        </div>
-        <div class="header__menu menu">
-          <div class="menu__icon">
-            <span></span>
-          </div>
-          <nav data-sub_menu_auto_close="true" class="menu__body">
-            <ul class="menu__list">
-              <li>
-                <a data-goto=".page__section_1" href="" class="menu__link"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a data-goto=".page__section_2" href="" class="menu__link"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a data-goto=".page__section_3" href="" class="menu__link"
-                  >Projects</a
-                >
-              </li>
-              <li>
-                <a href="" class="menu__link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Stylesheet.css" />
+  <link rel="stylesheet" href="Responsive.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="left">
+        <img src="Assets/PP.jpg" alt="" class="header__logo">
+        <p>Harrison Brown</p>
       </div>
-    </header>
-
-    <section class="hero">
-      <span class="hero-bg"></span>
-      <div class="hero-text">
-        <h1>Hello there, My name is Harrison Brown</h1>
-        <p>
-          I am Learning how to code in my spare time but, please take a look at
-          some of my projects
-        </p>
+      <div class="header__menu menu">
+        <div class="menu__icon">
+          <span></span>
+        </div>
+        <nav data-sub_menu_auto_close="true" class="menu__body">
+          <ul class="menu__list">
+            <li>
+              <a href="#home" class="menu__link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="menu__link">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="menu__link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <section class="container-btn">
-      <button class="btn" data-hover="Projects">
-        <div>View My</div>
-      </button>
-    </section>
-    
-    <section class="about-me">
-      <div class="container">
-        <h2>About me</h2>
-        <p>
-          Here you can find out more about me and my current skills in web
-          delvolpment
-        </p>
-        <div class="row">
-          <div class="column">
-            <h3>Find out about me</h3>
+  <section class="hero" id="home">
+    <span class="hero-bg"></span>
+    <div class="hero-text">
+      <h1>Hello, im Harrison Brown</h1>
+      <p>
+        I am a juinor web delvelopr based out of Northampton, England. <br>
+        I love to learn new things and coding has been a great challang for me.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-btn">
+    <button class="btn" data-hover="Projects">
+      <div>View My</div>
+    </button>
+  </section>
+
+  <section class="about-me" id="about">
+    <div class="container-about-me">
+      <h2>About me</h2>
+      <p>
+
+      </p>
+      <div class="row-about-me">
+        <div class="column-about-me">
+          <h3>Find out about me</h3>
+          <div>
+            I’m a competent, proactive worker with a deep understanding of computers, coding and website development.
+            <br>
+            I’m able to work efficiently within a team to share my ideas and expert knowledge. However, i’m also able to
+            prioritise
+            workflow and complete tasks independently.
+            <br>
+            I have a personal interest for problem solving, I love the complexity of escape rooms and enjoy solving
+            puzzles in my
+            spare time.
+            <br>
+            I’m a self motivated worker who is always eager to learn and take on more responsibility. For example, I
+            chose to learn
+            code from scratch after deciding the career path would provide me with the challenge I was craving in a role
+            and ignite
+            my drive for success.
+            <br>
+            I am familiar with HTML and CSS and will soon have completed another Udemy Web Design course.
             <div>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
-              iusto? Aperiam, minima id? Itaque, ipsum aliquam. Praesentium
-              libero dignissimos eius ipsum inventore, sequi rem reprehenderit
-              molestiae? Nostrum quos ipsa quidem!
-              <BR></BR>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, natus. Nam optio exercitationem ab delectus saepe deserunt, 
-              laboriosam recusandae? Eveniet, adipisci commodi. Sapiente pariatur amet expedita laboriosam aliquid, est culpa.
-             <div> 
-               <button class="about-btn">
-              <span>Contact</span>
-              <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
-                <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
-              </svg>
-            </button></div>
-            
-              
+              <button class="about-btn">
+                <span>Contact</span>
+                <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                </svg>
+              </button>
             </div>
-          </div>
-          <div class="column">
-            <h3>My skills</h3>
 
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium in, nobis nam placeat inventore molestiae corporis
-              repellat laboriosam amet cumque vero! Nam, consequatur saepe!
-              Reprehenderit veritatis aliquid recusandae eligendi autem?
-            </div>
+
           </div>
         </div>
-      </div>
-    </section>
+        <div class="column-about-me">
+          <h3>My skills</h3>
 
-<section class="projects">
+          <div>
+            <img class="skills-img" src="Assets/HTML.png" alt="">
+            <img class="skills-img" src="Assets/css.png" alt="">
 
-  
+          </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        
-        <div>
-         <img class="project-img" src="Assets/New Project.png" alt="">
-        
-          
-        </div>
-      </div>
-      <div class="column">
-        <h3>Blade Games</h3>
-
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium in, nobis nam placeat inventore molestiae corporis
-          repellat laboriosam amet cumque vero! Nam, consequatur saepe!
-          Reprehenderit veritatis aliquid recusandae eligendi autem?
-          <div> <button class="custom-btn btn-1">Project link</button></div>
+          <div><img class="skills-udm" src="Assets/Udemy, design.jpg" alt=""></div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        
-        <div>
-         <img class="project-img" src="Assets/New Project.png" alt="">
-        
-          
-        </div>
-      </div>
-      <div class="column">
-        <h3>InstantInk</h3>
+  </section>
 
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium in, nobis nam placeat inventore molestiae corporis
-          repellat laboriosam amet cumque vero! Nam, consequatur saepe!
-          Reprehenderit veritatis aliquid recusandae eligendi autem?
-          <div> <button class="custom-btn btn-1">Project link</button></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        
-        <div>
-         <img class="project-img" src="Assets/New Project.png" alt="">
-        
-          
-        </div>
-      </div>
-      <div class="column">
-        <h3>Harrison hamburger House</h3>
+  <!-- projects -->
 
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium in, nobis nam placeat inventore molestiae corporis
-          repellat laboriosam amet cumque vero! Nam, consequatur saepe!
-          Reprehenderit veritatis aliquid recusandae eligendi autem?
+  <section class="projects" id="projects">
 
-         <div> <button class="custom-btn btn-1">Project link</button></div>
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="column">
+          <div>
+            <img class="project-img blade" src="Assets/New Project.png" alt="">
+
+
+          </div>
+        </div>
+        <div class="column">
+          <h3>Blade Games</h3>
+
+          <div>
+            Blade games was the project i did after finishing the design course, by doing this project i fully
+            understood
+            <div> <button class="project-btn btn-1"><a
+                  href="https://github.com/Harrisonbrown1/bladeproject/tree/main/Blade%20games">view github</a>
+              </button>
+            </div>
+            <div> <button class="project-btn btn-1">view site</button></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+    <div class="container">
+      <div class="row">
+        <div class="column">
 
-<footer class="main-footer">
-  <div class="main-container">
-    <div class="main-footer__upper">
-      <div class="main-footer__row main-footer__row-1">
-        <h2 class="heading heading-sm main-footer__heading-sm">
-          <span>Social</span>
-        </h2>
-        <div class="main-footer__social-cont">
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="Assets/linkedin-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="Assets/github-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="Assets/twitter-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="Assets/yt-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon main-footer__icon--mr-none"
-              src="Assets/insta-ico.png"
-              alt="icon"
-            />
-          </a>
+          <div>
+            <img class="project-img" src="Assets\instaink-comp.png" alt="">
+
+
+          </div>
+        </div>
+        <div class="column">
+          <h3>InstantInk</h3>
+
+          <div>
+            Instaink was a project I did by taking creative desings from another tattooing website. <br>
+            It was useful for me becuase i understood why website's have there desing the way it is.
+            <div> <button class="project-btn btn-1"><a href="https://github.com/Harrisonbrown1/Instaink">view github</a>
+              </button>
+            </div>
+            <div> <button class="project-btn btn-1">view site</button></div>
+          </div>
         </div>
       </div>
-      <div class="main-footer__row main-footer__row-2">
-        <h4 class="heading heading-sm text-lt">Harrison Brown</h4>
-        <p class="main-footer__short-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-          tempora explicabo quae quod deserunt
-        </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+
+          <div>
+            <img class="project-img" src="Assets\computer-screen.png" alt="">
+
+
+          </div>
+        </div>
+        <div class="column">
+          <h3>Harrison hamburger House</h3>
+
+          <div>
+            Harrison hamburger House was a project i tried to do solo with my own creative Design.
+
+            <div> <button class="project-btn btn-1"><a href="https://github.com/Harrisonbrown1/HHH">view github</a>
+              </button>
+            </div>
+            <div> <button class="project-btn btn-1">view site</button></div>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+
+
+  <!-- footer -->
+
+
+  <footer class="main-footer" id="contact">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>My links</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" href="https://www.linkedin.com/in/harrison-brown-355b0a297/">
+              <img class="main-footer__icon" src="Assets/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" href="https://github.com/">
+              <img class="main-footer__icon" src="Assets/github-ico.png" alt="icon" />
+            </a>
+
+
+
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Harrison Brown</h4>
+          <p class="main-footer__short-desc">
+            Feel free to have a look at my github account and my Linkend account
+          </p>
+        </div>
+      </div>
 
 
 
@@ -245,98 +234,7 @@
 
 
 
-  </body>
-  <script>
-    "use strict";
-    const isMobile = {
-      Android: function () {
-        return navigator.userAgent.match(/Android/i);
-      },
-      BlackBerry: function () {
-        return navigator.userAgent.match(/BlackBerry/i);
-      },
-      iOS: function () {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-      },
-      Opera: function () {
-        return navigator.userAgent.match(/Opera Mini/i);
-      },
-      Windows: function () {
-        return navigator.userAgent.match(/IEMobile/i);
-      },
-      any: function () {
-        return (
-          isMobile.Android() ||
-          isMobile.BlackBerry() ||
-          isMobile.iOS() ||
-          isMobile.Opera() ||
-          isMobile.Windows()
-        );
-      },
-    };
-    if (isMobile.any()) {
-      document.body.classList.add("_touch");
-      let menuArrows = document.querySelectorAll(".menu__arrow");
-      if (menuArrows.length > 0) {
-        for (let index = 0; index < menuArrows.length; index++) {
-          const menuArrow = menuArrows[index];
-          menuArrow.addEventListener("click", function (e) {
-            menuArrow.parentElement.classList.toggle("_active");
-          });
-        }
-      }
-    } else {
-      document.body.classList.add("_pc");
-    }
-    // burger menu
-    const iconMenu = document.querySelector(".menu__icon");
-    const menuBody = document.querySelector(".menu__body");
-    if (iconMenu) {
-      iconMenu.addEventListener("click", function (e) {
-        document.body.classList.toggle("_lock");
-        iconMenu.classList.toggle("_active");
-        menuBody.classList.toggle("_active");
-      });
-    }
-    // scroll on click
-    const menuLinks = document.querySelectorAll(".menu__link[data-goto]");
-    if (menuLinks.length > 0) {
-      menuLinks.forEach((menuLink) => {
-        menuLink.addEventListener("click", onMenuLinkClick);
-      });
-      function onMenuLinkClick(e) {
-        const menuLink = e.target;
-        if (
-          menuLink.dataset.goto &&
-          document.querySelector(menuLink.dataset.goto)
-        ) {
-          const gotoBlock = document.querySelector(menuLink.dataset.goto);
-          const gotoBlockValue =
-            gotoBlock.getBoundingClientRect().top +
-            pageYOffset -
-            document.querySelector(".header").offsetHeight;
-          if (iconMenu.classList.contains("_active")) {
-            document.body.classList.remove("_lock");
-            iconMenu.classList.remove("_active");
-            menuBody.classList.remove("_active");
-            // auto close sub-menu
-            if (
-              menuBody.dataset.sub_menu_auto_close &&
-              document.body.classList.contains("_touch")
-            ) {
-              let menuArrows = document.querySelectorAll(".menu__arrow");
-              for (let index = 0; index < menuArrows.length; index++) {
-                menuArrows[index].parentElement.classList.remove("_active");
-              }
-            }
-          }
-          window.scrollTo({
-            top: gotoBlockValue,
-            behavior: "smooth",
-          });
-          e.preventDefault();
-        }
-      }
-    }
-  </script>
+</body>
+<script src="js.js"></script>
+
 </html>
